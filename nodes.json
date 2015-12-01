@@ -17,6 +17,12 @@
       "ports": [],
       ":memory": 1024,
       ":bootstrap": "bootstrap-node.sh"
+    },
+    "jenkins.example.com": {
+      ":ip": "192.168.32.30",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap-jenkins.sh"
     }
   }
 }
