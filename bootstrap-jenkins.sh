@@ -27,4 +27,4 @@ sudo service jenkins start
     # Add agent section to /etc/puppet/puppet.conf
     echo "" && echo "[agent]\nserver=puppet" | sudo tee --append /etc/puppet/puppet.conf 2> /dev/null
 
-    sudo puppet agent --enable
+#    sudo puppet agent --enable
