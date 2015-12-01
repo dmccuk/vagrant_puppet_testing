@@ -31,6 +31,7 @@ else
     sudo puppet module install puppetlabs-git
     sudo puppet module install puppetlabs-vcsrepo
 #    sudo puppet module install garystafford-fig
+    sudo puppet module install puppetlabs/apache
 
     # symlink manifest from Vagrant synced folder location
     ln -s /vagrant/site.pp /etc/puppet/manifests/site.pp
