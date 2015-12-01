@@ -5,7 +5,7 @@
 
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-#sudo apt-get update
+sudo apt-get update
 sudo apt-get install --force-yes -y jenkins ruby ruby-dev rake git
  
 sudo gem install  --no-rdoc --no-ri puppet-lint
