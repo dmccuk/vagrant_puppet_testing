@@ -18,7 +18,7 @@ else
     echo "192.168.32.5    puppet.example.com  puppet" | sudo tee --append /etc/hosts 2> /dev/null && \
     echo "192.168.32.10   node01.example.com  node01" | sudo tee --append /etc/hosts 2> /dev/null && \
     echo "192.168.32.20   node02.example.com  node02" | sudo tee --append /etc/hosts 2> /dev/null && \
-    echo "192.168.32.20   jenkins.example.com  jenkins" | sudo tee --append /etc/hosts 2> /dev/null
+    echo "192.168.32.30   jenkins.example.com  jenkins" | sudo tee --append /etc/hosts 2> /dev/null
 
 
     # Add optional alternate DNS names to /etc/puppet/puppet.conf
